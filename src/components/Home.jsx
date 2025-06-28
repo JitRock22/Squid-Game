@@ -1,17 +1,19 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bgImg from '../assets/SquidGame.jpg';
 import { motion } from 'framer-motion';
 import audioRef from '../assets/SquidGameSong.mp3'; // Adjust the path as necessary
 
 const Home = () => {
+    const imageUrl = 'https://res.cloudinary.com/doyahf4an/image/upload/v1751126047/SquidGame_nlwg04.jpg';
+
     const backgroundStyle = {
-        backgroundImage: `url(${bgImg})`,
-        height: '100vh',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-    };
+    backgroundImage: `url(${imageUrl})`,
+    height: '100vh',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+};
+
 
     return (
         <motion.div
@@ -28,7 +30,7 @@ const Home = () => {
             >
                 Welcome to S<span className=" text-secondary ">q</span>uid G<span className=" text-secondary">a</span>m<span className=" text-secondary">E</span>
                 <p className="text-xl mid:text-2xl lg:text-3xl" style={{ fontFamily: 'Poppins' }}>
-                Answer a few twisted questions and uncover your fate in the Squid Game universe
+                    Answer a few twisted questions and uncover your fate in the Squid Game universe
                 </p>
             </h1>
 

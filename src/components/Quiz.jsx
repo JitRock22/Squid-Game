@@ -120,70 +120,70 @@ const characters = [
     name: "Seong Gi-hun",
     number: "456",
     tags: ["kind", "loyal", "leader", "emotional"],
-    image: "/public/images/gihun.png",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125502/gihun_dudmfz.png",
     description: "A kind-hearted yet troubled man who values friendship and fairness, even in deadly games."
   },
   {
     name: "Cho Sang-woo",
     number: "218",
     tags: ["intelligent", "strategic", "ruthless", "ambitious", "cold"],
-    image: "/public/images/sangwoo.webp",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125502/sangwoo_inykyz.webp",
     description: "A brilliant mind who is willing to do whatever it takes to win, no matter the moral cost."
   },
   {
     name: "Kang Sae-byeok",
     number: "067",
     tags: ["silent", "rebel", "loyal", "independent", "mysterious"],
-    image: "/public/images/saebyeok.jpg",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125502/saebyeok_whblav.jpg",
     description: "A quiet and independent soul who fights for her family and freedom."
   },
   {
     name: "Oh Il-nam",
     number: "001",
     tags: ["manipulative", "leader", "observer", "deceptive", "wise"],
-    image: "/public/images/ilnam.webp",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125501/ilnam_td81lt.webp",
     description: "An elderly man who hides a dark secret behind a seemingly innocent smile."
   },
   {
     name: "Jang Deok-su",
     number: "101",
     tags: ["aggressive", "ruthless", "greedy", "dominant", "violent"],
-    image: "/public/images/deoksu.webp",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125501/deoksu_fn9ks2.webp",
     description: "A violent gangster who relies on brute strength and fear to dominate others."
   },
   {
     name: "Han Mi-nyeo",
     number: "212",
     tags: ["unpredictable", "emotional", "manipulative", "attention-seeking"],
-    image: "/images/minyeo.png",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125502/minyeo_toxex0.png",
     description: "A chaotic and emotional player who uses manipulation to survive."
   },
   {
     name: "Ali Abdul",
     number: "199",
     tags: ["kind", "loyal", "trusting", "innocent", "hardworking"],
-    image: "/images/ali.jpg",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125501/ali_jy5ilk.jpg",
     description: "A pure-hearted and hardworking man who trusts deeply, even in darkness."
   },
   {
     name: "Hwang Jun-ho",
     number: "N/A",
     tags: ["brave", "curious", "investigative", "loyal", "justice-seeker"],
-    image: "/public/images/junho.webp",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125928/junho_frymu0.webp",
     description: "A brave detective who infiltrates the game to uncover the truth."
   },
   {
     name: "The Front Man",
     number: "N/A",
     tags: ["mysterious", "authoritative", "cold", "calculating", "leader"],
-    image: "/public/images/frontman.webp",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125935/frontman_nznejh.webp",
     description: "A commanding and cold figure who controls the deadly games from the shadows."
   },
   {
     name: "The Doll",
     number: "N/A",
     tags: ["creepy", "robotic", "innocent", "deadly", "controlled"],
-    image: "/public/images/doll.jpg",
+    image: "https://res.cloudinary.com/doyahf4an/image/upload/v1751125924/doll_eeavbo.jpg",
     description: "An iconic and eerie presence in the Red Light, Green Light game, silently enforcing rules."
   },
 ];
