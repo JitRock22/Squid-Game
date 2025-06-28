@@ -234,9 +234,11 @@ export default function QuizPage() {
 
   return (
     <div className="relative flex flex-col items-center justify-center h-screen text-white p-4 overflow-hidden">
+
+    
       {/* Background Audio */}
       <audio autoPlay={true} loop>
-        <source src={audioRef} type="audio/mpeg" />
+        <source src="https://res.cloudinary.com/doyahf4an/video/upload/v1751126682/SquidGameSuspense_fgwbus.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
 

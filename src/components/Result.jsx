@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLocation, useNavigate } from 'react-router-dom';
-import audioRef from '../assets/Way_back.mp3'; // Adjust the path as necessary
+
 
 export default function ResultPage() {
   const location = useLocation();
@@ -31,11 +31,16 @@ export default function ResultPage() {
       transition={{ duration: 0.5 }}
     >
       <div className="flex flex-col items-center overflow-hidden justify-center min-h-screen bg-black text-white p-6">
+
+
+        {/* Audio background */}
         <audio autoPlay loop>
-          <source src={audioRef} type="audio/mpeg" />
+          <source src="https://res.cloudinary.com/doyahf4an/video/upload/v1751126684/Way_back_lmp25n.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
 
         </audio>
+
+
         <h1 className="text-3xl font-bold mb-4">You Are...</h1>
         <h2 style={{ fontFamily: 'SquidGame' }} className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-pink-500 mb-2">{character.name}</h2>
         {character.number !== "N/A" && (

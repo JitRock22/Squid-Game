@@ -2,17 +2,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import audioRef from '../assets/SquidGameSong.mp3'; // Adjust the path as necessary
 
 const Home = () => {
     const imageUrl = 'https://res.cloudinary.com/doyahf4an/image/upload/v1751126047/SquidGame_nlwg04.jpg';
 
     const backgroundStyle = {
-    backgroundImage: `url(${imageUrl})`,
-    height: '100vh',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-};
+        backgroundImage: `url(${imageUrl})`,
+        height: '100vh',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+    };
 
 
     return (
@@ -34,12 +33,14 @@ const Home = () => {
                 </p>
             </h1>
 
-
+            {/* background audio */}
             <audio autoPlay loop>
-                <source src={audioRef} type="audio/mpeg" />
+                <source src="https://res.cloudinary.com/doyahf4an/video/upload/v1751126686/SquidGameSong_iluxeq.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
 
             </audio>
+
+
             <Link to="/quiz" className="mb-8">
 
                 <motion.button
