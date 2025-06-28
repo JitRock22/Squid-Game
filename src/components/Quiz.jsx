@@ -218,7 +218,7 @@ export default function QuizPage() {
       const matchingTags = character.tags.filter(tag => scoreMap[tag]);
       const score = matchingTags.reduce((sum, tag) => sum + scoreMap[tag], 0);
       const normalized = score / character.tags.length;
-      const randomness = Math.random() * 0.3;
+      const randomness = Math.random() * 0.5;
       const finalScore = normalized + randomness;
 
       if (finalScore > bestScore) {
