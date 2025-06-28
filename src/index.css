@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'SquidGame';
+  src: url('/fonts/SquidGame.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@theme{
+    --color-primary: #283618;
+    --color-secondary: #EC5E95;
+    --color-accent: #0D152B;
+    --color-new: #4fd6cc;
+}
+
+/* @keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+} */
+
+/* @keyframes slowspin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-slowspin {
+  animation: slowspin 20s linear infinite;
+}  */
+
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 1s linear infinite;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
