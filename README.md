@@ -1,12 +1,90 @@
-# React + Vite
+# Squid Game Character Quiz 🦑
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun web-based personality quiz built with **React** that assigns a **Squid Game character** based on your choices. Answer a series of questions, and discover which iconic character from the series matches your personality!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Features
 
-## Expanding the ESLint configuration
+* 12+ personality-based questions
+* Dynamic character result based on user choices
+* Styled UI with dark mode and themed buttons
+* Result screen with image, number, and description
+* Bonus randomness so results feel unique each time
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+* **React** (with Hooks)
+* **React Router DOM** for navigation
+* **Tailwind CSS** for styling
+
+---
+
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/JitRock22/Squid-Game.git
+cd squid-game-quiz
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the App
+
+```bash
+npm run dev
+```
+
+App will be live at: `http://localhost:5173` (if using Vite)
+
+---
+
+## 📸 Screenshots
+
+* Home screen with Start button
+<img src="public/Home.png" width="400"/>
+
+* Questions with selectable answers
+<img src="public/Quiz.png" width="400"/>
+
+* Result page with character image & traits
+<img src="public/Result.png" width="400"/>
+
+---
+
+## 🧠 Quiz Logic
+
+Each option has a `tag` (e.g., `kind`, `ruthless`, `rebel`). The result is based on:
+
+* How many tags match a character
+* Normalized score
+* A bit of randomness for variety
+
+---
+
+## 📄 License
+
+This project is for educational and fun purposes only. Inspired by Squid Game (Netflix). No copyright infringement intended.
+
+---
+
+## ✨ Future Ideas
+
+* User sign-in & score history
+* Leaderboard for shared characters
+* Animations or sounds
+* More Squid Game games added
+
+---
+
+### Made with ❤️ by Jit
