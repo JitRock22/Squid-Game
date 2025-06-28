@@ -51,8 +51,14 @@ App will be live at: `http://localhost:5173` (if using Vite)
 ## 📸 Screenshots
 
 * Home screen with Start button
+<img src="public/Home.png" width="400"/>
+
 * Questions with selectable answers
+<img src="public/Quiz.png" width="400"/>
+
 * Result page with character image & traits
+<img src="public/Result.png" width="400"/>
+
 
 ---
 
